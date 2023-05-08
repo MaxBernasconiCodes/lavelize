@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a1bd500671de155b948ad8ac93c0947b",
+    "content-hash": "39c45f50a1d57bc997588bfd838fea65",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -2977,6 +2977,67 @@
             "time": "2023-02-06T13:46:10+00:00"
         },
         {
+            "name": "musa11971/filament-translation-manager",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/musa11971/filament-translation-manager.git",
+                "reference": "4d780a2ea33ee30ceb17bcb754f0e318d9a200e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/musa11971/filament-translation-manager/zipball/4d780a2ea33ee30ceb17bcb754f0e318d9a200e0",
+                "reference": "4d780a2ea33ee30ceb17bcb754f0e318d9a200e0",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^2.17",
+                "filament/notifications": "^2.17",
+                "php": "^8.1",
+                "spatie/laravel-package-tools": "^1.10",
+                "spatie/laravel-translation-loader": "^2.7"
+            },
+            "require-dev": {
+                "tightenco/duster": "^1.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "musa11971\\FilamentTranslationManager\\FilamentTranslationManagerProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "musa11971\\FilamentTranslationManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "musa11971",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Manage your application's translation strings in Filament.",
+            "homepage": "https://github.com/musa11971/filament-translation-manager",
+            "keywords": [
+                "filament",
+                "laravel",
+                "localization",
+                "translation"
+            ],
+            "support": {
+                "issues": "https://github.com/musa11971/filament-translation-manager/issues",
+                "source": "https://github.com/musa11971/filament-translation-manager/tree/1.0.5"
+            },
+            "time": "2023-04-17T15:28:14+00:00"
+        },
+        {
             "name": "nesbot/carbon",
             "version": "2.66.0",
             "source": {
@@ -4394,6 +4455,76 @@
                 }
             ],
             "time": "2023-04-12T17:08:32+00:00"
+        },
+        {
+            "name": "spatie/laravel-translation-loader",
+            "version": "2.7.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-translation-loader.git",
+                "reference": "b45980636d3d60a3426ac44f5a51517bca8cb63a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-translation-loader/zipball/b45980636d3d60a3426ac44f5a51517bca8cb63a",
+                "reference": "b45980636d3d60a3426ac44f5a51517bca8cb63a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/translation": "^6.0|^7.0|^8.0|^9.0|^10.0",
+                "php": "^7.2|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^4.0|^5.0|^6.0|^7.0|^8.0",
+                "phpunit/phpunit": "^8.0|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\TranslationLoader\\TranslationServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\TranslationLoader\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Store your language lines in the database, yaml or other sources",
+            "homepage": "https://github.com/spatie/laravel-translation-loader",
+            "keywords": [
+                "database",
+                "db",
+                "i8n",
+                "language",
+                "laravel",
+                "laravel-translation-loader",
+                "spatie",
+                "translate"
+            ],
+            "support": {
+                "source": "https://github.com/spatie/laravel-translation-loader/tree/2.7.6"
+            },
+            "funding": [
+                {
+                    "url": "https://spatie.be/open-source/support-us",
+                    "type": "custom"
+                }
+            ],
+            "time": "2023-02-07T10:08:04+00:00"
         },
         {
             "name": "symfony/console",
