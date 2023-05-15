@@ -12,25 +12,8 @@ class CvPhoto extends Component
     public $selectedPhoto = 0;
 
 
-    public function mount(){
-        $this->selectPhoto();
-    }
-
     public function render()
     {
         return view('livewire.cv-photo');
-    }
-
-    public function selectPhoto()
-    {
-        $rand = random_int(0, count($this->photos) - 1);
-        if ($rand == $this->selectedPhoto) {
-            $this->selectPhoto();
-        }
-        else {
-            $this->emit('imageChanged');
-            $this->selectedPhoto = $rand;
-            $this->selectedPath = asset('storage/'.$this->photos[$rand]);
-        }
     }
 }
