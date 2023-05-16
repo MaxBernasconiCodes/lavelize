@@ -1,5 +1,5 @@
 <div id="imgcontainer" class="relative duration-500 grid place-items-center rounded-md aspect-square overflow-hidden">
-    <img id="profileImg" class="rounded absolute transition-all duration-500 opacity-100" src="{{ asset('storage/pf1.png') }}"  alt="Max Bernasconi's Profile Photo" onclick="imageChanged()">
+    <img id="profileImg" class="rounded absolute transition-all duration-500 opacity-100 cursor-pointer" src="{{ asset('storage/pf1.png') }}"  alt="Max Bernasconi's Profile Photo" onclick="imageChanged()">
     <script>
           let actualPhoto = 1;
           let countPhotos = {{ count($this->photos) }}

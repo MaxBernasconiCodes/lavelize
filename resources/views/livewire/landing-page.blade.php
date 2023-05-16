@@ -30,10 +30,10 @@
         </div>
     @endif
     <main class="w-full  max-w-7xl p-6 mx-auto grid grid-cols-3 gap-4 justify-start drop-shadow-light-sm">
-        <div class="  p-4 pt-3 text-slate-100  ring-2 rounded-lg ring-white ">
+        <div class="  p-4 pt-3 text-slate-100  rounded-lg ring ring-slate-400 ">
             <livewire:cv-photo>
         </div>
-        <div class="col-span-2 p-4 pt-3 text-slate-100  border-2 rounded-lg outline-white ">
+        <div class="col-span-2 p-4 pt-3 text-slate-100 rounded-lg ring ring-slate-400 ">
             <h3 class="font-weight-bolder text-xl">Bio's title</h3>
             <p>Bio and presentation here</p>
         </div>
